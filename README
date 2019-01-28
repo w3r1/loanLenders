@@ -1,0 +1,13 @@
+Challenge
+- Determining how monthly compounding interest is calculated.
+- Timeboxed approach of 4 hours, missing tests due to time
+
+Tests
+Missing tests through timeboxed approach. Tests which should me done are:
+- Integration test, more specific end-to-end functional tests with expected results on base of a static csv
+- Module tests, more specific unit tests of each class
+- Frameworks: Spock for writing nice readable BDD tests
+
+How to run
+- mvn package
+- java -jar ./target/loanlenders-0.0.1-SNAPSHOT.jar ./src/test/resource/MarketData.csv 1000
